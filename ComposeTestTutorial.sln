@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29911.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csproj", "{BB65BF32-70AD-416E-845D-964C12D94800}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebFrontEnd", "WebFrontEnd\WebFrontEnd.csproj", "{0B3FD57D-E3C4-478C-9246-84E5F76A3F50}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{D82B696F-1AE9-48F0-A0D0-C850DFF19E2F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB65BF32-70AD-416E-845D-964C12D94800}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB65BF32-70AD-416E-845D-964C12D94800}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB65BF32-70AD-416E-845D-964C12D94800}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB65BF32-70AD-416E-845D-964C12D94800}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B3FD57D-E3C4-478C-9246-84E5F76A3F50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B3FD57D-E3C4-478C-9246-84E5F76A3F50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B3FD57D-E3C4-478C-9246-84E5F76A3F50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B3FD57D-E3C4-478C-9246-84E5F76A3F50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D82B696F-1AE9-48F0-A0D0-C850DFF19E2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D82B696F-1AE9-48F0-A0D0-C850DFF19E2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D82B696F-1AE9-48F0-A0D0-C850DFF19E2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D82B696F-1AE9-48F0-A0D0-C850DFF19E2F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B86A5EF2-41B3-4818-80CC-CA6C01A20FE5}
+	EndGlobalSection
+EndGlobal
